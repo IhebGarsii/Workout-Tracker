@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(232, 236, 239);
+}
+header {
+  background-color: white;
+}
+header .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+}
+.container nav a {
+  margin-left: 30px;
+  font-size: 1.3rem;
+  color: black;
+  border-radius: 5px;
+
+  width: 10rem;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+header a h1 {
+  font-size: 50px;
+}
+.container nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#signuo-nav {
+  white-space: nowrap;
+}
+nav button {
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  background-color: white;
+  border: 5px solid #1aac83;
+  border-radius: 3px;
+  border: none;
+  font-size: 1.2rem;
+}
+.pages {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+.workout-list {
+  margin: 20px auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.workout-list span {
+  padding-right: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+.workout-list strong {
+  display: block;
+  padding: 5px;
+}
+
+.workout-list h1 {
+  color: #0ab585;
+  padding: 5px;
+}
+.create {
+  padding: 20px;
+}
+.create label,
+input {
+  display: block;
+}
+.create label {
+  margin-top: 30px;
+  margin-bottom: 9px;
+}
+.create input {
+  padding: 5px;
+  outline: none;
+  border: none;
+  width: 17rem;
+  height: 2rem;
+  border-radius: 3px;
+}
+.create button {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 4px;
+  border: none;
+  margin: 10px auto;
+  background-color: #1aac83;
+  transition: 0.5s;
+  position: absolute;
+  right: 215px;
+  color: #fff;
+}
+input.error {
+  border: 1px solid rgb(195, 56, 56);
+}
+.signup {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef5a;
+  text-align: center;
+}
+.email-container {
+  text-align: start;
+}
+.password-container {
+  text-align: start;
+}
+.signup-container h3 {
+  font-size: 1.3rem;
+  padding: 20px;
+}
+.email-container input {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 25px;
+}
+.signup-container {
+  background-color: #fff;
+  padding: 50px;
+}
+.password-container input {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 25px;
+}
+.signup-container button {
+  margin-top: 15px;
+  width: 80px;
+  background-color: #1aac83;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+/* ************* */
+
+.login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef5a;
+  text-align: center;
+}
+.email-container {
+  text-align: start;
+}
+.password-container {
+  text-align: start;
+}
+.login-container h3 {
+  font-size: 1.3rem;
+  padding: 20px;
+}
+.email-container input {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 25px;
+}
+.login-container {
+  background-color: #fff;
+  padding: 50px;
+}
+.password-container input {
+  margin-bottom: 15px;
+  width: 200px;
+  height: 25px;
+}
+.login-container button {
+  margin-top: 15px;
+  width: 80px;
+  background-color: #1aac83;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  align-self: center;
+}
+form .signup,
+form .login {
+  max-width: 400px;
+}
